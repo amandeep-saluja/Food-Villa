@@ -1,0 +1,1098 @@
+{
+  "data": {
+    "type": "seeAllRestaurants",
+    "data": {
+      "title": "SEE ALL",
+      "totalOpenRestaurants": 1665,
+      "cards": [
+        {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "16970",
+            "name": "Mad Momos",
+            "uuid": "e7d3fd83-a3c4-4add-88e6-1b2fbfd82d8d",
+            "city": "6",
+            "area": "Guru Krupa Colony",
+            "totalRatingsString": "1000+ ratings",
+            "cloudinaryImageId": "qswrojfwttgslmy8n4cn",
+            "cuisines": [
+              "Chinese",
+              "Tibetan",
+              "Nepalese",
+              "Pizzas",
+              "Snacks",
+              "Beverages"
+            ],
+            "tags": [],
+            "costForTwo": 20000,
+            "costForTwoString": "₹200 FOR TWO",
+            "deliveryTime": 30,
+            "minDeliveryTime": 30,
+            "maxDeliveryTime": 30,
+            "slaString": "30 MINS",
+            "lastMileTravel": 3.5,
+            "slugs": {
+              "restaurant": "mad-momos-pimple-saudagar-pimple-saudagar",
+              "city": "pune"
+            },
+            "cityState": "6",
+            "address": "Shop 3 , Gurukrupa Colony , Jagtap Dairy Chowk , Pimple saudagar",
+            "locality": "Guru Krupa Colony",
+            "parentId": 610,
+            "unserviceable": false,
+            "veg": false,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [],
+            "aggregatedDiscountInfo": {
+              "header": "FLAT100 off",
+              "shortDescriptionList": [
+                {
+                  "meta": "FLAT100 off | Use FLATDEAL",
+                  "discountType": "Flat",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "FLAT100 off | Use FLATDEAL",
+                  "discountType": "Flat",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "aggregatedDiscountInfoV2": {
+              "header": "₹100 OFF",
+              "shortDescriptionList": [
+                {
+                  "meta": "Use FLATDEAL",
+                  "discountType": "Flat",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "FLAT100 off | Use FLATDEAL",
+                  "discountType": "Flat",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "ribbon": [
+              {
+                "type": "PROMOTED"
+              }
+            ],
+            "chain": [],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "distance",
+                  "fee": 4500,
+                  "message": ""
+                },
+                {
+                  "name": "time",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "special",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 4500,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "4500",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "cid=5764294~p=1~eid=00000185-d020-0983-08a8-25bb00b7017d",
+            "badges": {
+              "imageBased": [],
+              "textBased": [],
+              "textExtendedBadges": []
+            },
+            "lastMileTravelString": "3.5 kms",
+            "hasSurge": false,
+            "sla": {
+              "restaurantId": "16970",
+              "deliveryTime": 30,
+              "minDeliveryTime": 30,
+              "maxDeliveryTime": 30,
+              "lastMileTravel": 3.5,
+              "lastMileDistance": 0,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "longDistance": "NOT_LONG_DISTANCE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": true,
+            "avgRating": "4.0",
+            "totalRatings": 1000,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "2192",
+            "name": "Aroma's Hyderabad House",
+            "uuid": "b3a6eb3f-3b81-4c05-9bca-cb490e2695b9",
+            "city": "6",
+            "area": "Rahatani",
+            "totalRatingsString": "1000+ ratings",
+            "cloudinaryImageId": "y2hukcrkdh4p4v6djdff",
+            "cuisines": [
+              "Biryani",
+              "Mughlai",
+              "North Indian",
+              "Chinese"
+            ],
+            "tags": [],
+            "costForTwo": 50000,
+            "costForTwoString": "₹500 FOR TWO",
+            "deliveryTime": 24,
+            "minDeliveryTime": 24,
+            "maxDeliveryTime": 24,
+            "slaString": "24 MINS",
+            "lastMileTravel": 2.700000047683716,
+            "slugs": {
+              "restaurant": "aromas-hyderabad-house-pimple-saudagar",
+              "city": "pune"
+            },
+            "cityState": "6",
+            "address": "6/4/7, Kokane Chowk, Rahatni, Pimple Saudagar",
+            "locality": "Kokane Chowk",
+            "parentId": 71,
+            "unserviceable": false,
+            "veg": false,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [],
+            "aggregatedDiscountInfo": {
+              "header": "40% off",
+              "shortDescriptionList": [
+                {
+                  "meta": "40% off | Use TRYNEW",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "40% off up to ₹80 | Use code TRYNEW",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "aggregatedDiscountInfoV2": {
+              "header": "40% OFF",
+              "shortDescriptionList": [
+                {
+                  "meta": "Use TRYNEW",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "40% off up to ₹80 | Use code TRYNEW",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "distance",
+                  "fee": 3800,
+                  "message": ""
+                },
+                {
+                  "name": "time",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "special",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3800,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3800",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [],
+              "textBased": [],
+              "textExtendedBadges": []
+            },
+            "lastMileTravelString": "2.7 kms",
+            "hasSurge": false,
+            "sla": {
+              "restaurantId": "2192",
+              "deliveryTime": 24,
+              "minDeliveryTime": 24,
+              "maxDeliveryTime": 24,
+              "lastMileTravel": 2.700000047683716,
+              "lastMileDistance": 0,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "longDistance": "NOT_LONG_DISTANCE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.1",
+            "totalRatings": 1000,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "233324",
+            "name": "Burger King",
+            "uuid": "e76060af-19a7-409b-9e74-8b77353c7ff8",
+            "city": "6",
+            "area": "Rahatani",
+            "totalRatingsString": "1000+ ratings",
+            "cloudinaryImageId": "zpejfwmrqauw3monbrev",
+            "cuisines": [
+              "Burgers",
+              "American"
+            ],
+            "tags": [],
+            "costForTwo": 35000,
+            "costForTwoString": "₹350 FOR TWO",
+            "deliveryTime": 28,
+            "minDeliveryTime": 28,
+            "maxDeliveryTime": 28,
+            "slaString": "28 MINS",
+            "lastMileTravel": 2.799999952316284,
+            "slugs": {
+              "restaurant": "burger-king-pinple-saudagar-pimple-saudagar",
+              "city": "pune"
+            },
+            "cityState": "6",
+            "address": "Shop 1b, Ground Floor, Rainbow Plaza, Pinple Saudagar,Pune 411027",
+            "locality": "Pinple Saudagar",
+            "parentId": 166,
+            "unserviceable": false,
+            "veg": false,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [],
+            "aggregatedDiscountInfo": {
+              "header": "60% off",
+              "shortDescriptionList": [
+                {
+                  "meta": "60% off | Use STEALDEAL",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "60% off up to ₹120 | Use code STEALDEAL",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "aggregatedDiscountInfoV2": {
+              "header": "60% OFF",
+              "shortDescriptionList": [
+                {
+                  "meta": "Use STEALDEAL",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "60% off up to ₹120 | Use code STEALDEAL",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "distance",
+                  "fee": 3800,
+                  "message": ""
+                },
+                {
+                  "name": "time",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "special",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3800,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3800",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [],
+              "textBased": [],
+              "textExtendedBadges": []
+            },
+            "lastMileTravelString": "2.7 kms",
+            "hasSurge": false,
+            "sla": {
+              "restaurantId": "233324",
+              "deliveryTime": 28,
+              "minDeliveryTime": 28,
+              "maxDeliveryTime": 28,
+              "lastMileTravel": 2.799999952316284,
+              "lastMileDistance": 0,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "longDistance": "NOT_LONG_DISTANCE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.2",
+            "totalRatings": 1000,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "26127",
+            "name": "Bird Valley",
+            "uuid": "4d60a661-d5ab-4ece-b28a-4aba3a85cfbb",
+            "city": "6",
+            "area": "Pimple Gurav",
+            "totalRatingsString": "500+ ratings",
+            "cloudinaryImageId": "ifgd7jsxnl5lzpij0lgh",
+            "cuisines": [
+              "North Indian",
+              "Chinese",
+              "Goan"
+            ],
+            "tags": [],
+            "costForTwo": 70000,
+            "costForTwoString": "₹700 FOR TWO",
+            "deliveryTime": 25,
+            "minDeliveryTime": 25,
+            "maxDeliveryTime": 25,
+            "slaString": "25 MINS",
+            "lastMileTravel": 2.799999952316284,
+            "slugs": {
+              "restaurant": "bird-valley-pimple-saudagar-pimple-saudagar",
+              "city": "pune"
+            },
+            "cityState": "6",
+            "address": "52/1/6, Katevasti, Near Prithviraj Mangal Karyalay, Pimple Saudagar, Pune",
+            "locality": "Near Prithviraj Mangal Karyalay",
+            "parentId": 2708,
+            "unserviceable": false,
+            "veg": false,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [],
+            "aggregatedDiscountInfo": {
+              "header": "15% off",
+              "shortDescriptionList": [
+                {
+                  "meta": "15% off on all orders",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "15% off on all orders",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "aggregatedDiscountInfoV2": {
+              "header": "15% OFF",
+              "shortDescriptionList": [
+                {
+                  "meta": "",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "15% off on all orders",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "ribbon": [
+              {
+                "type": "PROMOTED"
+              }
+            ],
+            "chain": [],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "distance",
+                  "fee": 3800,
+                  "message": ""
+                },
+                {
+                  "name": "time",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "special",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3800,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3800",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "cid=5679342~p=4~eid=00000185-d020-0983-08a8-25bc00b70414",
+            "badges": {
+              "imageBased": [],
+              "textBased": [],
+              "textExtendedBadges": []
+            },
+            "lastMileTravelString": "2.7 kms",
+            "hasSurge": false,
+            "sla": {
+              "restaurantId": "26127",
+              "deliveryTime": 25,
+              "minDeliveryTime": 25,
+              "maxDeliveryTime": 25,
+              "lastMileTravel": 2.799999952316284,
+              "lastMileDistance": 0,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "longDistance": "NOT_LONG_DISTANCE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": true,
+            "avgRating": "4.3",
+            "totalRatings": 500,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "64065",
+            "name": "NIC Ice Creams",
+            "uuid": "fe35d6b6-e0b9-4e01-8a9f-0bad8aa09755",
+            "city": "6",
+            "area": "Pimpri Colony",
+            "totalRatingsString": "100+ ratings",
+            "cloudinaryImageId": "lyxvqxu6cdld3sueetq5",
+            "cuisines": [
+              "Ice Cream",
+              "Desserts"
+            ],
+            "tags": [],
+            "costForTwo": 12000,
+            "costForTwoString": "₹120 FOR TWO",
+            "deliveryTime": 16,
+            "minDeliveryTime": 16,
+            "maxDeliveryTime": 16,
+            "slaString": "16 MINS",
+            "lastMileTravel": 0.8999999761581421,
+            "slugs": {
+              "restaurant": "nic-near-vaishno-devi-mandir-pimpri-colony-pcmc",
+              "city": "pune"
+            },
+            "cityState": "6",
+            "address": "Shop no. 2 & 3 Komal Apartment Near Deep Automobile Next to Ganpati Mandir Pimpri Colony Pune 411017",
+            "locality": "Komal Apartment",
+            "parentId": 6249,
+            "unserviceable": false,
+            "veg": true,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [],
+            "aggregatedDiscountInfo": {
+              "header": "FLAT125 off",
+              "shortDescriptionList": [
+                {
+                  "meta": "FLAT125 off | Use FLATDEAL",
+                  "discountType": "Flat",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "FLAT125 off | Use FLATDEAL",
+                  "discountType": "Flat",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "aggregatedDiscountInfoV2": {
+              "header": "₹125 OFF",
+              "shortDescriptionList": [
+                {
+                  "meta": "Use FLATDEAL",
+                  "discountType": "Flat",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "FLAT125 off | Use FLATDEAL",
+                  "discountType": "Flat",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "distance",
+                  "fee": 3800,
+                  "message": ""
+                },
+                {
+                  "name": "time",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "special",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3800,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3800",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [],
+              "textBased": [],
+              "textExtendedBadges": []
+            },
+            "lastMileTravelString": "0.8 kms",
+            "hasSurge": false,
+            "sla": {
+              "restaurantId": "64065",
+              "deliveryTime": 16,
+              "minDeliveryTime": 16,
+              "maxDeliveryTime": 16,
+              "lastMileTravel": 0.8999999761581421,
+              "lastMileDistance": 0,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "longDistance": "NOT_LONG_DISTANCE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.6",
+            "totalRatings": 100,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "23705",
+            "name": "McDonald's",
+            "uuid": "553c2c4c-f55e-4450-a581-a16bf56e0dc5",
+            "city": "6",
+            "area": "Rahatani",
+            "totalRatingsString": "500+ ratings",
+            "cloudinaryImageId": "7bb739d7f6ae8b4ce8ed590765dffd2f",
+            "cuisines": [
+              "Burgers",
+              "Beverages",
+              "Cafe",
+              "Desserts"
+            ],
+            "tags": [],
+            "costForTwo": 40000,
+            "costForTwoString": "₹400 FOR TWO",
+            "deliveryTime": 22,
+            "minDeliveryTime": 22,
+            "maxDeliveryTime": 22,
+            "slaString": "22 MINS",
+            "lastMileTravel": 2.799999952316284,
+            "slugs": {
+              "restaurant": "mc-donalds-pimple-saudagar-pimple-saudagar",
+              "city": "pune"
+            },
+            "cityState": "6",
+            "address": "Tiffin's Rainbow Plaza, Beside Hotel Dalchini, Happy Thoughts Road , Pimple Saudagar, Rahatani , Pune 411017.",
+            "locality": "Pimple Saudagar",
+            "parentId": 630,
+            "unserviceable": false,
+            "veg": false,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [],
+            "chain": [],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "distance",
+                  "fee": 3800,
+                  "message": ""
+                },
+                {
+                  "name": "time",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "special",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3800,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3800",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [],
+              "textBased": [],
+              "textExtendedBadges": []
+            },
+            "lastMileTravelString": "2.7 kms",
+            "hasSurge": false,
+            "sla": {
+              "restaurantId": "23705",
+              "deliveryTime": 22,
+              "minDeliveryTime": 22,
+              "maxDeliveryTime": 22,
+              "lastMileTravel": 2.799999952316284,
+              "lastMileDistance": 0,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "longDistance": "NOT_LONG_DISTANCE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "4.4",
+            "totalRatings": 500,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "118093",
+            "name": "Food Favourite Express",
+            "uuid": "17dc8e43-cb1c-4a15-9625-3e163e7f90d7",
+            "city": "6",
+            "area": "Pimpri Gaon",
+            "totalRatingsString": "20+ ratings",
+            "cloudinaryImageId": "xisni3kitjbdxfncxhhe",
+            "cuisines": [
+              "Chinese",
+              "North Indian",
+              "Seafood"
+            ],
+            "tags": [],
+            "costForTwo": 20000,
+            "costForTwoString": "₹200 FOR TWO",
+            "deliveryTime": 24,
+            "minDeliveryTime": 24,
+            "maxDeliveryTime": 24,
+            "slaString": "24 MINS",
+            "lastMileTravel": 0.4000000059604645,
+            "slugs": {
+              "restaurant": "food-favourite-express-pimple-saudagar-pimple-saudagar",
+              "city": "pune"
+            },
+            "cityState": "6",
+            "address": "Sr no 227 shop no 04 OPP Globmed Medical Pimpri Gaon PCMC Pune 411017",
+            "locality": "Pimple Saudagar",
+            "parentId": 81282,
+            "unserviceable": false,
+            "veg": false,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [],
+            "aggregatedDiscountInfo": {
+              "header": "15% off",
+              "shortDescriptionList": [
+                {
+                  "meta": "15% off on all orders",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "15% off on all orders",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "aggregatedDiscountInfoV2": {
+              "header": "15% OFF",
+              "shortDescriptionList": [
+                {
+                  "meta": "",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "15% off on all orders",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "distance",
+                  "fee": 3300,
+                  "message": ""
+                },
+                {
+                  "name": "time",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "special",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3300,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3300",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [],
+              "textBased": [],
+              "textExtendedBadges": []
+            },
+            "lastMileTravelString": "0.4 kms",
+            "hasSurge": false,
+            "sla": {
+              "restaurantId": "118093",
+              "deliveryTime": 24,
+              "minDeliveryTime": 24,
+              "maxDeliveryTime": 24,
+              "lastMileTravel": 0.4000000059604645,
+              "lastMileDistance": 0,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "longDistance": "NOT_LONG_DISTANCE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "3.3",
+            "totalRatings": 20,
+            "new": false
+          },
+          "subtype": "basic"
+        },
+        {
+          "type": "restaurant",
+          "data": {
+            "type": "F",
+            "id": "51897",
+            "name": "DESI HANDI",
+            "uuid": "357224f1-6ca9-445c-bf18-6a81859fc138",
+            "city": "6",
+            "area": "Pimpri Colony",
+            "totalRatingsString": "50+ ratings",
+            "cloudinaryImageId": "ubmvl7kidxsloj6qxtny",
+            "cuisines": [
+              "North Indian",
+              "Biryani",
+              "Chinese"
+            ],
+            "tags": [],
+            "costForTwo": 35000,
+            "costForTwoString": "₹350 FOR TWO",
+            "deliveryTime": 19,
+            "minDeliveryTime": 19,
+            "maxDeliveryTime": 19,
+            "slaString": "19 MINS",
+            "lastMileTravel": 0.4000000059604645,
+            "slugs": {
+              "restaurant": "spoonbell-near-zero-boys-chowk-pcmc",
+              "city": "pune"
+            },
+            "cityState": "6",
+            "address": "Sr no 10/A, Near Tapovan Temple , Behind Bhavani Super Market , Station Road Pimpri Pune -411017 , PUNE PCMC ward No-71, Pune, Maharashtra-411017",
+            "locality": "PCMC",
+            "parentId": 22163,
+            "unserviceable": false,
+            "veg": false,
+            "select": false,
+            "favorite": false,
+            "tradeCampaignHeaders": [],
+            "aggregatedDiscountInfo": {
+              "header": "40% off",
+              "shortDescriptionList": [
+                {
+                  "meta": "40% off on all orders",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "40% off on all orders",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "aggregatedDiscountInfoV2": {
+              "header": "40% OFF",
+              "shortDescriptionList": [
+                {
+                  "meta": "",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "descriptionList": [
+                {
+                  "meta": "40% off on all orders",
+                  "discountType": "Percentage",
+                  "operationType": "RESTAURANT"
+                }
+              ],
+              "subHeader": "",
+              "headerType": 0,
+              "superFreedel": ""
+            },
+            "chain": [],
+            "feeDetails": {
+              "fees": [
+                {
+                  "name": "distance",
+                  "fee": 3300,
+                  "message": ""
+                },
+                {
+                  "name": "time",
+                  "fee": 0,
+                  "message": ""
+                },
+                {
+                  "name": "special",
+                  "fee": 0,
+                  "message": ""
+                }
+              ],
+              "totalFees": 3300,
+              "message": "",
+              "title": "Delivery Charge",
+              "amount": "3300",
+              "icon": ""
+            },
+            "availability": {
+              "opened": true,
+              "nextOpenMessage": "",
+              "nextCloseMessage": ""
+            },
+            "longDistanceEnabled": 0,
+            "rainMode": "NONE",
+            "thirdPartyAddress": false,
+            "thirdPartyVendor": "",
+            "adTrackingID": "",
+            "badges": {
+              "imageBased": [],
+              "textBased": [],
+              "textExtendedBadges": []
+            },
+            "lastMileTravelString": "0.4 kms",
+            "hasSurge": false,
+            "sla": {
+              "restaurantId": "51897",
+              "deliveryTime": 19,
+              "minDeliveryTime": 19,
+              "maxDeliveryTime": 19,
+              "lastMileTravel": 0.4000000059604645,
+              "lastMileDistance": 0,
+              "serviceability": "SERVICEABLE",
+              "rainMode": "NONE",
+              "longDistance": "NOT_LONG_DISTANCE",
+              "preferentialService": false,
+              "iconType": "EMPTY"
+            },
+            "promoted": false,
+            "avgRating": "3.6",
+            "totalRatings": 50,
+            "new": false
+          },
+          "subtype": "basic"
+        }
+      ],
+      "totalRestaurants": 1665
+    },
+    "subtype": "personalized"
+  }
+}

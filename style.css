@@ -1,0 +1,171 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+#app {
+    color: white;
+}
+
+#header {
+    background-color: black;
+}
+
+.nav {
+    height: 10rem;
+    max-width: 80vw;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-item {
+    font-size: 3rem;
+    overflow: auto;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.nav-item > span {
+    margin: 2rem;
+}
+
+.nav-item > span:hover {
+    color: darkorange;
+}
+
+.logo {
+    width: 10rem;
+    cursor: pointer;
+}
+
+#body {
+    max-width: 80vw;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.search {
+    height: 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#search-box {
+    padding: 1rem;
+    margin: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.btn {
+    margin: 1.3rem 0;
+    color: darkorange;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.restaurants {
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.restaurant-card {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    max-width: 28rem;
+    font-weight: bold;
+    cursor: pointer;
+    min-height: 30rem;
+    margin: 3rem 0;
+    padding: 1.5rem;
+}
+
+.restaurant-card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.restaurant-logo {
+    width: 100%;
+}
+
+.restaurant-name {
+    font-size: 2.5rem;
+    /*border-bottom: 1px solid gray;*/
+    height: 6rem;
+}
+
+.restaurant-cuisines {
+    color: darkmagenta;
+    font-size: 1.75rem;
+    /*border-bottom: 1px solid gray;*/
+    padding: .5rem 0;
+    height: 5rem;
+}
+
+.restaurant-area {
+    color: darkturquoise;
+    font-size: 1.5rem;
+    /*border-bottom: 1px solid gray;*/
+    padding: .5rem 0;
+    height: 2.5rem;
+}
+
+.restaurant-address {
+    font-size: 1rem;
+    /*border-bottom: 1px solid gray;*/
+    padding: .5rem 0;
+    height: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: lighter;
+}
+
+.restaurant-rating {
+    font-size: 1.3rem;
+    padding: .4rem 0;
+    height: 2rem;
+    color: white;
+    background-color: limegreen;
+    display: inline;
+    width: max-content;
+}
+
+#footer{
+    background-color: black;
+}
+
+.foot-nav {
+    height: 15rem;
+    max-width: 80vw;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 3rem;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.foot-nav > span:hover {
+    color: darkorange;
+}
