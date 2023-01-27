@@ -1,10 +1,11 @@
 import { useState, useEffect } from 'react';
-import { filterRestaurantData } from '../utils/helper';
-import RestaurantCard from './RestaurantCard.js';
-import useRestaurant from '../hooks/useAllRestaurant';
-import useIsOnline from '../hooks/useIsOnline';
-import CLOSE from '../assets/icons/close.svg';
-import Shimmer from './Shimmer';
+import { filterRestaurantData } from '../../utils/helper';
+import RestaurantCard from '../RestaurantCard/RestaurantCard.js';
+import useRestaurant from '../../hooks/useAllRestaurant';
+import useIsOnline from '../../hooks/useIsOnline';
+import CLOSE from '../../assets/icons/close.svg';
+import Shimmer from '../Shimmer/Shimmer';
+import { Link } from 'react-router-dom';
 
 const Body = () => {
     // This hook will take care of reconciliation trigger
@@ -77,7 +78,11 @@ const Body = () => {
             <div className="restaurants">
                 {filteredRestaurant
                     ? filteredRestaurant.map((restaurant) => {
-                          return <RestaurantCard {...restaurant?.data} key={restaurant?.data?.id} />;
+                          return (
+                              <Link to={'restaurant/' + restaurant?.data?.id} className={'link'}>
+                                  <RestaurantCard {...restaurant?.data} key={restaurant?.data?.id} />
+                              </Link>
+                          );
                       })
                     : null}
             </div>

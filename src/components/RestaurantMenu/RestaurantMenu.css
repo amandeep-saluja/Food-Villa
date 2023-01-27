@@ -1,0 +1,32 @@
+.restaurant {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 25px;
+}
+.restaurant-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant-details-name {
+    color: black;
+    font-size: 55px;
+    margin: 10px 15px;
+}
+
+.restaurant-details-cuisines,
+.restaurant-details-totalRatingsString,
+.restaurant-details-area,
+.restaurant-details-city {
+    color: black;
+    font-size: 30px;
+    margin: 5px 15px;
+}
+.restaurant-menu {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}

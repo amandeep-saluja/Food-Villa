@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +8,7 @@
 
 html {
     font-size: 10px;
-    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-family: ProximaNova, arial, Helvetica Neue, sans-serif;
 }
 
 #app {
@@ -26,7 +28,6 @@ html {
     display: flex;
     justify-content: space-between;
 }
-
 
 .nav-item {
     font-size: 3rem;
@@ -121,7 +122,7 @@ html {
     color: darkmagenta;
     font-size: 1.75rem;
     /*border-bottom: 1px solid gray;*/
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     height: 5rem;
 }
 
@@ -129,14 +130,14 @@ html {
     color: darkturquoise;
     font-size: 1.5rem;
     /*border-bottom: 1px solid gray;*/
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     height: 2.5rem;
 }
 
 .restaurant-address {
     font-size: 1rem;
     /*border-bottom: 1px solid gray;*/
-    padding: .5rem 0;
+    padding: 0.5rem 0;
     height: 2rem;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -146,7 +147,7 @@ html {
 
 .restaurant-rating {
     font-size: 1.3rem;
-    padding: .4rem 0;
+    padding: 0.4rem 0;
     height: 2rem;
     color: white;
     background-color: limegreen;
@@ -154,7 +155,7 @@ html {
     width: max-content;
 }
 
-#footer{
+#footer {
     background-color: black;
 }
 

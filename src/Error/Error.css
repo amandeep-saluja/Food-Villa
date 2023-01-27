@@ -1,0 +1,16 @@
+#error-block {
+    color: black;
+    font-size: 40px;
+    margin: 20px auto;
+    max-width: 1024px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.status,
+.statusText,
+.data {
+    font-size: 20px;
+}

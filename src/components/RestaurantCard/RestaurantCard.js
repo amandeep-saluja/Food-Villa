@@ -1,4 +1,4 @@
-import { IMG_CDN_LINK } from '../Constants.js';
+import { IMG_CDN_LINK } from '../../utils/Constants.js';
 const RestaurantCard = ({ name, area, cloudinaryImageId, totalRatingsString, cuisines }) => {
     return (
         <div className="restaurant-card">

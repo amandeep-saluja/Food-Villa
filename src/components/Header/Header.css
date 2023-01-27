@@ -1,0 +1,4 @@
+.link, .link:link, .link:hover, .link:active, .link:visited {
+    text-decoration: none;
+    color: white;
+}

@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { DATA_LINK } from '../Constants';
+import { DATA_LINK } from '../utils/Constants';
 // import data from '../../v5.json';
 
 const useAllRestaurant = () => {
