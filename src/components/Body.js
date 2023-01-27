@@ -1,9 +1,10 @@
 import { useState, useEffect } from 'react';
 import { filterRestaurantData } from '../utils/helper';
-import Restaurant from './Restaurant.js';
+import RestaurantCard from './RestaurantCard.js';
 import useRestaurant from '../hooks/useAllRestaurant';
 import useIsOnline from '../hooks/useIsOnline';
 import CLOSE from '../assets/icons/close.svg';
+import Shimmer from './Shimmer';
 
 const Body = () => {
     // This hook will take care of reconciliation trigger
@@ -30,7 +31,9 @@ const Body = () => {
         );
     }
 
-    return (
+    return !restaurants ? (
+        <Shimmer />
+    ) : (
         <div id="body">
             <div className="search">
                 <input
@@ -74,7 +77,7 @@ const Body = () => {
             <div className="restaurants">
                 {filteredRestaurant
                     ? filteredRestaurant.map((restaurant) => {
-                          return <Restaurant data={restaurant?.data} key={restaurant?.data?.id} />;
+                          return <RestaurantCard {...restaurant?.data} key={restaurant?.data?.id} />;
                       })
                     : null}
             </div>
