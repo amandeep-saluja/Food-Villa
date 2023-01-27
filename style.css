@@ -69,6 +69,11 @@ html {
     border-radius: 1rem;
 }
 
+.cancel-search {
+    transform: translateX(-50px) translateY(12px);
+    cursor: pointer;
+}
+
 .btn {
     margin: 1.3rem 0;
     color: darkorange;

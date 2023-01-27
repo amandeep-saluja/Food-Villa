@@ -1,21 +1,82 @@
+import { useState, useEffect } from 'react';
+import { filterRestaurantData } from '../utils/helper';
 import Restaurant from './Restaurant.js';
-import {useState} from 'react';
-import data from '../../v5.json';
+import useRestaurant from '../hooks/useAllRestaurant';
+import useIsOnline from '../hooks/useIsOnline';
+import CLOSE from '../assets/icons/close.svg';
 
 const Body = () => {
-    console.log('render', data?.data?.data?.cards)
-    const [restaurants] = useState(data?.data?.data?.cards);
+    // This hook will take care of reconciliation trigger
+    const restaurants = useRestaurant();
+    const [filteredRestaurant, setFilteredRestaurant] = useState(restaurants);
+    const [searchText, setSearchText] = useState('');
+
+    useEffect(() => {
+        setFilteredRestaurant(restaurants);
+    }, [restaurants]);
+
+    const isOnline = useIsOnline();
+
+    if (!isOnline) {
+        return (
+            <div
+                style={{
+                    fontSize: '30px',
+                    color: 'black',
+                }}
+            >
+                ❌ You are offline...
+            </div>
+        );
+    }
 
     return (
         <div id="body">
             <div className="search">
-                <input type="text" id="search-box"/>
-                <button className="btn">Search</button>
+                <input
+                    placeholder={'Search Restaurant'}
+                    type="text"
+                    id="search-box"
+                    value={searchText}
+                    onChange={(event) => {
+                        setSearchText(event.target.value);
+                    }}
+                    onKeyUp={(e) => {
+                        if (e.key === 'Enter' || e.keyCode === 13) {
+                            document.getElementById('searchButton').click();
+                        }
+                    }}
+                />
+                {searchText ? (
+                    <img
+                        src={CLOSE}
+                        alt={'close'}
+                        className={'cancel-search'}
+                        onClick={() => {
+                            setSearchText('');
+                            setFilteredRestaurant(restaurants);
+                        }}
+                    />
+                ) : (
+                    <></>
+                )}
+                <button
+                    className="btn"
+                    id={'searchButton'}
+                    onClick={() => {
+                        const filteredRest = filterRestaurantData(restaurants, searchText);
+                        setFilteredRestaurant(filteredRest);
+                    }}
+                >
+                    Search
+                </button>
             </div>
             <div className="restaurants">
-                {restaurants.map((restaurant, index) => {
-                    return <Restaurant data={restaurant.data} key={index}/>
-                })}
+                {filteredRestaurant
+                    ? filteredRestaurant.map((restaurant) => {
+                          return <Restaurant data={restaurant?.data} key={restaurant?.data?.id} />;
+                      })
+                    : null}
             </div>
         </div>
     );

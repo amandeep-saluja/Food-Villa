@@ -1,9 +1,9 @@
-import {LOGO_URL} from '../Constants.js';
+import LOGO_URL from '../assets/logo.jpg';
 
 export const Nav = () => {
     return (
         <div className="nav">
-            <img className="logo" src={LOGO_URL} alt="logo"/>
+            <img className="logo" src={LOGO_URL} alt="logo" />
             <div className="nav-item">
                 <span>Home</span>
                 <span>About</span>
@@ -17,7 +17,7 @@ export const Nav = () => {
 const Header = () => {
     return (
         <div id="header">
-            <Nav/>
+            <Nav />
         </div>
     );
 };
