@@ -1,9 +1,8 @@
 import { useState, useEffect } from 'react';
 import { DATA_LINK } from '../utils/Constants';
-// import data from '../../v5.json';
 
 const useAllRestaurant = () => {
-    const [restaurant, setRestaurant] = useState(null);
+    const [restaurant, setRestaurant] = useState({});
 
     useEffect(() => {
         getAllRestaurant();
