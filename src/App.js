@@ -13,6 +13,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from 'react-router-dom';
 const Instamart = lazy(() => import('./components/Instamart/Instamart'));
 
 const AppLayout = () => {
+    console.log('started');
     return (
         <>
             <Header />
