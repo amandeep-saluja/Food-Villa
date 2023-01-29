@@ -4,30 +4,29 @@ import useRestaurantData from '../../hooks/useRestaurantData';
 import { IMG_CDN_LINK } from '../../utils/Constants';
 const RestaurantMenu = () => {
     const { restId } = useParams();
-    console.log('Params: ', restId);
+    const { cloudinaryImageId, name, cuisines, totalRatingsString, area, city, menu } = useRestaurantData(restId);
 
-    const restaurant = useRestaurantData(restId);
-
-    return restaurant ? (
-        <div className={'restaurant'}>
-            <div className={'restaurant-details'}>
-                <img src={IMG_CDN_LINK + restaurant?.cloudinaryImageId} alt={'restaurant image'} />
-                <span className={'restaurant-details-name'}>{restaurant?.name}</span>
-                <span className={'restaurant-details-cuisines'}>{restaurant?.cuisines}</span>
-                <span className={'restaurant-details-totalRatingsString'}>{restaurant?.totalRatingsString}</span>
-                <span className={'restaurant-details-area'}>{restaurant?.area}</span>
-                <span className={'restaurant-details-city'}>{restaurant?.city}</span>
+    return (
+        name && (
+            <div className={'restaurant'}>
+                <div className={'restaurant-details'}>
+                    <img src={IMG_CDN_LINK + cloudinaryImageId} alt={'restaurant image'} />
+                    <span className={'restaurant-details-name'}>{name}</span>
+                    <span className={'restaurant-details-cuisines'}>{cuisines}</span>
+                    <span className={'restaurant-details-totalRatingsString'}>{totalRatingsString}</span>
+                    <span className={'restaurant-details-area'}>{area}</span>
+                    <span className={'restaurant-details-city'}>{city}</span>
+                </div>
+                <div className={'restaurant-menu'}>
+                    <ul>
+                        {menu &&
+                            Object.values(menu?.items).map((item) => {
+                                return <li key={item.id}>{item?.name}</li>;
+                            })}
+                    </ul>
+                </div>
             </div>
-            <div className={'restaurant-menu'}>
-                <ul>
-                    {Object.values(restaurant?.menu?.items).map((item) => {
-                        return <li>{item?.name}</li>;
-                    })}
-                </ul>
-            </div>
-        </div>
-    ) : (
-        <></>
+        )
     );
 };
 

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { RESTAURANT_DETAILS_URL } from '../utils/Constants';
 const useRestaurantData = (restId) => {
-    const [restaurant, setRestaurant] = useState(null);
+    const [restaurant, setRestaurant] = useState({});
 
     useEffect(() => {
         getRestaurantData();
