@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { DATA_LINK } from '../utils/Constants';
 
 const useAllRestaurant = () => {
-    const [restaurant, setRestaurant] = useState({});
+    const [restaurant, setRestaurant] = useState([]);
 
     useEffect(() => {
         getAllRestaurant();

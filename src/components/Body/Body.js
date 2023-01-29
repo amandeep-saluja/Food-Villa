@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { filterRestaurantData } from '../../utils/helper';
 import RestaurantCard from '../RestaurantCard/RestaurantCard.js';
-import useRestaurant from '../../hooks/useAllRestaurant';
+import useAllRestaurant from '../../hooks/useAllRestaurant';
 import useIsOnline from '../../hooks/useIsOnline';
 import CLOSE from '../../assets/icons/close.svg';
 import Shimmer from '../Shimmer/Shimmer';
@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 
 const Body = () => {
     // This hook will take care of reconciliation trigger
-    const restaurants = useRestaurant();
+    const restaurants = useAllRestaurant();
     const [filteredRestaurant, setFilteredRestaurant] = useState(restaurants);
     const [searchText, setSearchText] = useState('');
 
